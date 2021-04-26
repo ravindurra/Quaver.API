@@ -34,7 +34,9 @@ namespace Quaver.API.Tests.Processors.Rating
             var ratingProcessorKey = new RatingProcessorKeys(20);
             var rating = ratingProcessorKey.CalculateRating(10, false);
             Assert.True(rating > 0);
-            ///Assert.Equal(2.2577379940315284E-05, rating);
+            ////Assert.Equal(2.2577379940315284E-05, rating);
+
+        
         }
 
         [Fact]
